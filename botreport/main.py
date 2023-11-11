@@ -32,7 +32,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         reply_markup=ReplyKeyboardMarkup.from_button(
             KeyboardButton(
                 text="Open the color picker!",
-                web_app=WebAppInfo(url="http://localhost:3000/"),
+                web_app=WebAppInfo(url="https://main--lovely-cucurucho-183e41.netlify.app/"),
             )
         ),
     )
