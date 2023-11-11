@@ -1,6 +1,5 @@
 import './App.css';
 import React, {useEffect} from 'react';
-import Button from './components/button/Button';
 import {useTelegram} from './hooks/useTelegram'
 
 function App() {
